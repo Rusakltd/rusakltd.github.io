@@ -15,7 +15,7 @@ h1 {
 h2 {
   text-align: center;
   font-family: "Exo 2";
-  margin-left: 23%;
+  /*margin-left: 23%;*/
 }
 div {
   display: block;
@@ -23,13 +23,10 @@ div {
 .left-menu {
   position: fixed;
   float:left;
-  width: 23%;
+  width: 215px;
   height: 100%;
-  max-width: 300px;
   border-right: solid rgb(167, 167, 167) 1px;
   background-color: rgb(243, 243, 243);
-  min-width: 185px;
-  z-index: 3;
 }
 .full-name {
   font-size: 20px;
@@ -38,12 +35,9 @@ div {
   text-align: left;
 }
 .right-column {
-  float: right;
   text-align: center;
-  width: 100%;
-  margin-left: 23%;
-  z-index: 0;
-  /*border: solid black 2px;*/
+  margin-left: 215px;
+  border: solid black 2px;
 }
 li {
   padding-left: 0px;
