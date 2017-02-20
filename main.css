@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    /*background: #fff;*/
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -13,6 +13,8 @@ h1 {
 }
 
 h2 {
+  margin: 0;
+  padding-top: 15px;
   text-align: center;
   font-family: "Exo 2";
   /*margin-left: 23%;*/
@@ -25,6 +27,7 @@ div {
   float:left;
   width: 215px;
   height: 100%;
+  top:0;
   border-right: solid rgb(167, 167, 167) 1px;
   background-color: rgb(243, 243, 243);
 }
@@ -34,10 +37,26 @@ div {
   line-height: 1.25;
   text-align: left;
 }
+.full-name a {
+  text-decoration: none;
+  color: black;
+}
 .right-column {
   text-align: center;
+  top:0;
   margin-left: 215px;
-  border: solid black 2px;
+  min-width: 200px;
+  /*border: solid black 2px;*/
+}
+.slider {
+  min-height: 600px;
+  background-image:linear-gradient(to right, #a09996, #c1bab7);
+  width: 100%;
+}
+.logo img {
+  position: absolute;
+  /*top:-300px;*/
+  margin-left: 25px;
 }
 li {
   padding-left: 0px;
@@ -50,6 +69,7 @@ li a {
   Font-family: "Exo 2";
   font-size: 18px;
   text-decoration: none;
+
 }
 ul {
   padding-left: 20px;
